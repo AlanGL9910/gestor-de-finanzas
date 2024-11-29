@@ -11,8 +11,8 @@ import mysql.connector
 
 mydb = mysql.connector.connect(
   host="localhost",
-  user="tu_usuario",  # Reemplaza con tu usuario de MariaDB
-  password="tu_contraseña"  # Reemplaza con tu contraseña de MariaDB
+  user="root",  # Reemplaza con tu usuario de MariaDB
+  password=""  
 )
 
 cursor = mydb.cursor()
